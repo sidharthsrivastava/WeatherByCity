@@ -1,0 +1,18 @@
+2015-05-11 14:20:17,461 WARN  [SoapUI] Missing folder [D:\SoapPrj\com.api\.\ext] for external libraries
+2015-05-11 14:20:17,661 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
+2015-05-11 14:20:18,227 INFO  [WsdlProject] Loaded project from [file:/D:/SoapPrj/com.api/src/test/java/REST-Project-1-soapui-project.xml]
+2015-05-11 14:20:18,227 WARN  [WsdlProject] Project 'REST Project 1' is from a newer version (5.1.3) of SoapUI than this (4.6.4) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
+2015-05-11 14:20:18,624 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2015-05-11 14:20:18,625 INFO  [SoapUITestCaseRunner] Running TestSuite [TestSuite 2], runType = SEQUENTIAL
+2015-05-11 14:20:18,639 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2]
+2015-05-11 14:20:18,659 INFO  [SoapUITestCaseRunner] running step [GetCitiesByCountry - Request 1]
+2015-05-11 14:20:19,810 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2015-05-11 14:20:19,811 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2015-05-11 14:20:19,811 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [Akola] in Response
+2015-05-11 14:20:19,811 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status FAILED
+2015-05-11 14:20:19,812 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response did not meet SLA 1013/900
+2015-05-11 14:20:19,812 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2015-05-11 14:20:19,813 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2015-05-11 14:20:19,813 ERROR [SoapUITestCaseRunner] GetCitiesByCountry - Request 1 failed, exporting to [D:\SoapPrj\com.api\target\surefire-reports\TestSuite_2-TestCase_2-GetCitiesByCountry__Request_1-0-FAILED.txt]
+2015-05-11 14:20:19,823 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2], time taken: 1144ms, status: FAILED
+2015-05-11 14:20:19,849 INFO  [SoapUITestCaseRunner] TestSuite [TestSuite 2] finished with status [FAILED] in 1214ms
